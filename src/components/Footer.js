@@ -1,7 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-/* import "../assets/css/bootstrap.min.css";
-import "../assets/css/style.css"; */
 
 const Footer = () => {
   return (
@@ -12,19 +10,19 @@ const Footer = () => {
             <div className="col-sm-8">
               <ul>
                 <li>
-                  <a href="">PORTFOLIO</a>
+                  <Link to="">PORTFOLIO</Link>
                 </li>
-                <li>
+                {/*  <li>
                   <a href="">CLIENTS</a>
-                </li>
+                </li> */}
                 <li>
-                  <a href="">STUDIO</a>
+                  <Link to="">STUDIO</Link>
                 </li>
-                <li>
+                {/*  <li>
                   <a href="">TEAM</a>
-                </li>
+                </li> */}
                 <li>
-                  <a href="">CONTACT</a>
+                  <Link to="">CONTACT</Link>
                 </li>
               </ul>
             </div>

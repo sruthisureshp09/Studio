@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-/* import "../assets/css/bootstrap.min.css";
-import "../assets/css/style.css"; */
+import Gallery from "./Gallery";
 
 const Portfolio = () => {
   return (
@@ -17,7 +16,7 @@ const Portfolio = () => {
       </div>
       <div className="d-flex">
         <div className="toolbar mb2 mt2">
-          <button className="btn-portfolio fil-cat" href="" data-rel="all">
+          <button className="btn-portfolio fil-cat" data-rel="all">
             ALL
           </button>
           <button className="btn-portfolio fil-cat" data-rel="web">
@@ -39,21 +38,18 @@ const Portfolio = () => {
       </div>
       <div className="d-flex">
         <div id="portfolio">
-          <div className="tile scale-anm web all mt-5">
+          <Gallery />
+          {/* <div className="tile scale-anm web all mt-5">
             <img src={require("../assets/images/port90.png")} alt="" />
           </div>
           <div className="tile scale-anm bcards all">
             <img src={require("../assets/images/prot1.png")} alt="1" />
           </div>
-          <div className="tile scale-anm web all">
+          <div className="tile scale-anm all">
             <img src={require("../assets/images/port7.png")} alt="5" />
           </div>
           <div className="tile scale-anm web all">
-            <img
-              className="mt-4"
-              src={require("../assets/images/port2.png")}
-              alt="2"
-            />
+            <img src={require("../assets/images/port2.png")} alt="2" />
           </div>
           <div className="tile scale-anm flyers all">
             <img src={require("../assets/images/port6.png")} alt="4" />
@@ -63,7 +59,7 @@ const Portfolio = () => {
           </div>
           <div className="tile scale-anm flyers all">
             <img src={require("../assets/images/port9.png")} alt="6" />
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="d-flex justify-content-center mt-3">

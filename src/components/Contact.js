@@ -1,12 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
-/* import "../assets/css/bootstrap.min.css";
-import "../assets/css/style.css"; */
 
 const Contact = () => {
   return (
     /*  <!-- contact start --> */
-    <section className="contact">
+    <section className="contact" id="contact">
       <div className="container">
         <h1>REACH US</h1>
         <h2>REACH US</h2>

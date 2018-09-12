@@ -23,21 +23,16 @@ const Header = () => {
           </div>
           <ul className="nav">
             <li>
-              <a href="">PORTFOLIO</a>
+              <Link to="#portfolio">PORTFOLIO</Link>
+            </li>
+
+            <li>
+              <Link to="/">STUDIO</Link>
             </li>
             <li>
-              <a href="">CLIENTS</a>
-            </li>
-            <li>
-              <a href="">STUDIO</a>
-            </li>
-            <li>
-              <a href="">TEAM</a>
-            </li>
-            <li>
-              <a className="mr-4" href="">
+              <Link className="mr-4" to="#contact">
                 CONTACT
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
