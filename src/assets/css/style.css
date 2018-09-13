@@ -657,7 +657,7 @@ footer img {
 /* testimonial end */
 
 div.nebula.nebula-1 {
-  background: url("../images/bg.jpg") repeat 50%;
+  background: url('../images/bg.jpg') repeat 50%;
   position: fixed;
 }
 div.nebula {
