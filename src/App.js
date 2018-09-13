@@ -6,7 +6,7 @@ import Service from "./components/Service";
 import Portfolio from "./components/Portfolio";
 import SideMenu from "./components/SideMenu";
 import Contact from "./components/Contact";
-
+import MakeOver from "./components/MakeOver";
 import "./assets/css/bootstrap.min.css";
 import "./assets/css/style.css";
 require("./assets/js/custom.js");
@@ -18,6 +18,7 @@ class App extends Component {
         <SideMenu />
         <Portfolio />
         <Service />
+        <MakeOver />
         <Testimonial />
         <Contact />
         <Footer />

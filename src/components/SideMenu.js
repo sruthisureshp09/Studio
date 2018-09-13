@@ -51,9 +51,10 @@ export default class SideMenu extends Component {
             <h4>Professional </h4>
             <h1>PHOTOGRAPHY</h1>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry
+              Lorem Ipsum is simply dummy text of the printing and
+              <br /> typesetting industry
             </p>
+            <button> EXPLORE</button>
           </div>
         </div>
         <div className="social-icons social-icons2 d-flex">
@@ -77,7 +78,7 @@ export default class SideMenu extends Component {
               <span className="next-point2">2</span>
               <span className="previous">NEXT</span>
               <a
-                className=""
+                className="carousel-control-next"
                 href="#carouselExampleIndicators"
                 role="button"
                 data-slide="next"
@@ -86,7 +87,6 @@ export default class SideMenu extends Component {
                   className="carousel-control-next-icon"
                   aria-hidden="true"
                 />
-                <span className="sr-only">Next</span>
               </a>
             </div>
           </div>

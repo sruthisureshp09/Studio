@@ -37,4 +37,38 @@ $(function() {
     navigationText: ["", ""],
     autoPlay: true
   });
+});
+ */
+/* $(document).ready(function() {
+  $(".autoplay").slick({
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    autoplay: false,
+    autoplaySpeed: 2000,
+    navigation: false,
+    nextArrow:
+      '<button type="button" class="slick-next"><img src={require("../assets/images/left-arrow.png")}> PREVIOUS</button>',
+    prevArrow:
+      '<button type="button" class="slick-prev">NEXT <img src={require("../assets/images/right-arrow.png")}></button>',
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: true,
+          centerMode: true,
+          centerPadding: "40px",
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: true,
+          centerMode: true,
+          centerPadding: "40px",
+          slidesToShow: 2
+        }
+      }
+    ]
+  });
 }); */
